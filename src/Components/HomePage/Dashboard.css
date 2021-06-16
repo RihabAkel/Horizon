@@ -1,0 +1,23 @@
+@media (max-width:768px){
+  .particles-canvas{
+    display:none;
+  }}
+
+.zoom {
+background-color: #f2f2f2;
+transition: transform .3s; 
+width: 250px;
+height: 280px;
+margin: 0 auto;
+}
+
+.zoom:hover {
+transform: scale(1.2); }
+
+.zoom-btn{
+transition: transform .3s; 
+margin: 0 auto;
+}
+
+.zoom-btn:hover {
+transform: scale(1.2); }
